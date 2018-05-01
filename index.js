@@ -11,7 +11,7 @@ function setCart(c) {
 
 function addToCart(item) {
  var p = Math.floor(Math.random() * (100 - 1)) + 1;
- 
+ Object.assign({cart}, { item: p })
 return  cart.push()
 }
 
